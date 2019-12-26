@@ -312,6 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 850231665}
   - component: {fileID: 850231667}
+  - component: {fileID: 850231666}
   m_Layer: 0
   m_Name: "\u904A\u6232\u7BA1\u7406\u5668"
   m_TagString: Untagged
@@ -333,6 +334,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &850231666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850231664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05da29fc3cc4ae94c9f677323f1f55b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 288333106011278687, guid: 1f8df4368f009164fbd5a5e4dbc519fb, type: 3}
+  clip: {fileID: 8300000, guid: 6f5cf4bda8e2fa446b325244ee6c315f, type: 3}
 --- !u!82 &850231667
 AudioSource:
   m_ObjectHideFlags: 0
@@ -510,7 +525,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 853799423}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 850231666}
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &853799423
 MonoBehaviour:
   m_ObjectHideFlags: 0
