@@ -16,7 +16,7 @@ public class SpawnCoin : MonoBehaviour
 
     public void Spawn()
     {
-        Instantiate(coin, new Vector3(0,0,0), Quaternion.identity);
         aud.PlayOneShot(clip);
+        Instantiate(coin, new Vector3(0, 3, 0), Quaternion.identity);
     }
 }

@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05da29fc3cc4ae94c9f677323f1f55b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 288333106011278687, guid: 1f8df4368f009164fbd5a5e4dbc519fb, type: 3}
+  coin: {fileID: 8116946103157849712, guid: 1f8df4368f009164fbd5a5e4dbc519fb, type: 3}
   clip: {fileID: 8300000, guid: 6f5cf4bda8e2fa446b325244ee6c315f, type: 3}
 --- !u!82 &850231667
 AudioSource:
